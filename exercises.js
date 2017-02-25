@@ -27,14 +27,31 @@ console.log(numberOfFloorsBurjKhalifa, tokyoOlympicsYear);
 /*3. Variables with Boolean values
 Declare variables named lovesPrepClass, eatsDonuts, drinksGin.  Console log each variable.*/
 
+var lovesPrepClass = true;
+var eatsDonuts = true;
+var drinksGin = false;
+
+console.log(lovesPrepClass, eatsDonuts, drinksGin);
+
 /*4. Variable with Null values
 Declare variables named completedCodingChallenge, traveledToSpace.  Console log each variable*/
+
+var completedCodingChallenge = true;
+var traveledToSpace = null;
+
+console.log(completedCodingChallenge, traveledToSpace);
+
 
 /*5.  Variables with Array for its value.
 Declare a variable named japanPrefectures and assign the value of any 5 prefectures in Japan.
 Console log the variable 
 Console log the value at index 1.
 Console log the value at index 3.*/
+
+var japanPrefectures = ["Hokkaido", "Gifu-Ken", "Aomori-ken", "Iwate-ken", "Osaka-fu"];
+
+console.log(japanPrefectures);
+console.log(japanPrefectures[1], japanPrefectures[3]);
 
 /*6.  Variable with Array for its value.
 Declare a variable named planets and assign the value of each planet in our solar system, in the order of distance from the sun.  
