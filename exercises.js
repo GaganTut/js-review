@@ -132,6 +132,14 @@ console.log(firstComp, secondComp);
 
  console log the object*/
 
+ var car = {
+  make: "BMW",
+  model: "X5",
+  year: 2015,
+  doors: 4
+ };
+ console.log(car);
+
 /*14.  Declare a literal object named bigBox and set its value to be an empty object.
 
 Add a property named size and set it to a random number value between 0 and 50 (hint, use Math.something...)
@@ -139,6 +147,14 @@ Add a property named color and set it to any color.
 Add a property named contents and set it to be an empty array
 
 console log the object*/
+
+var bigBox = {};
+
+bigBox.size = Math.floor(Math.random() * 50);
+bigBox.color = "Yellow";
+bigBox.contents = [];
+
+console.log(bigBox);
 
 /*15.  Declare a literal object named "colorMeBadd" with properties and values set to:
 
